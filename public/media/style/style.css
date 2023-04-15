@@ -1,0 +1,81 @@
+.subscribe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #46405b;
+    width: 20rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.subscribe>form>input {
+    display: flex;
+}
+
+.submit {
+    width: 100%;
+    background-color: #62529c;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #322e41;
+    color: white;
+}
+
+a {
+    color: aqua;
+}
+
+a:visited {
+    color: aqua;
+}
+
+body {
+    background-color: #46405b;
+    color: white;
+}
+
+.intro,
+.posts,
+.cmsAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+}
+
+.deleteCMS {
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteForm,
+.mainText {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #322e41;
+}
+
+.postText {
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.postTextCMS {
+    max-width: 40vw;
+    word-wrap: break-word;
+}
